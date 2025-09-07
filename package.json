@@ -1,0 +1,18 @@
+{
+  "name": "mostly-harmless-lib",
+  "author": "SLM Audio",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Utility library for interop with Mostly Harmless",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^7.1.4"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  }
+}
