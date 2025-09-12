@@ -1,16 +1,7 @@
 {
-  "name": "@slm-audio/mostly-harmless-lib",
-  "author": "slm-audio",
-  "type": "module",
+  "name": "@slm-audio/mostly-harmless-js",
   "version": "0.0.1",
-  "description": "Utility library for interop with Mostly Harmless",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build"
-  },
-  "devDependencies": {
-    "vite": "^7.1.4"
-  },
+  "description": "\"Utility library for interop with mostly-harmless\" ",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -18,22 +9,31 @@
   "dependencies": {
     "esbuild": "^0.25.9",
     "fdir": "^6.5.0",
+    "fsevents": "^2.3.3",
     "nanoid": "^3.3.11",
     "picocolors": "^1.1.1",
     "picomatch": "^4.0.3",
     "postcss": "^8.5.6",
     "rollup": "^4.50.1",
     "source-map-js": "^1.2.1",
-    "tinyglobby": "^0.2.15"
+    "tinyglobby": "^0.2.15",
+  },
+  "devDependencies": {
+    "vite": "^7.1.4"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build":  "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SLM-Audio/mostly-harmless-js.git"
   },
-  "keywords": [],
+  "author": "slm-audio",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MeijisIrlnd/mostly-harmless-js/issues"
+    "url": "https://github.com/SLM-Audio/mostly-harmless-js/issues"
   },
-  "homepage": "https://github.com/MeijisIrlnd/mostly-harmless-js#readme"
+  "homepage": "https://github.com/SLM-Audio/mostly-harmless-js#readme"
 }
