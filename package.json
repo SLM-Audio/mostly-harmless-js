@@ -1,6 +1,6 @@
 {
   "name": "@slm-audio/mostly-harmless-js",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "\"Utility library for interop with mostly-harmless\" ",
   "main": "index.js",
   "directories": {
