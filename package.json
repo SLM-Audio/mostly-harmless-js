@@ -1,21 +1,12 @@
 {
   "name": "@slm-audio/mostly-harmless-js",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "\"Utility library for interop with mostly-harmless\" ",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "dependencies": {
-    "esbuild": "^0.25.8",
-    "fdir": "^6.5.0",
-    "nanoid": "^3.3.11",
-    "picocolors": "^1.1.1",
-    "picomatch": "^4.0.3",
-    "postcss": "^8.5.6",
-    "rollup": "^4.50.1",
-    "source-map-js": "^1.2.1",
-    "tinyglobby": "^0.2.15"
   },
   "devDependencies": {
     "vite": "^7.1.4"
